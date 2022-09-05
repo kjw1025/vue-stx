@@ -1,0 +1,123 @@
+[{
+        "mainlink": "#",
+        "maintxt": "회사소개",
+        "subdata": [{
+                "sublink": "#",
+                "subtxt": "인사말"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "STX건설"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "기업문화"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "STX건설연혁"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "조직안내"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "윤리경영"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "인안전·환경·품질경영사말"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "찾아오시는길"
+            }
+        ]
+    },
+    {
+        "mainlink": "#",
+        "maintxt": "사업분야",
+        "subdata": [{
+                "sublink": "#",
+                "subtxt": "건축사업"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "주택사업"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "토목사업"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "플랜트/공작기계사업"
+            }
+        ]
+    },
+    {
+        "mainlink": "#",
+        "maintxt": "사회공헌",
+        "subdata": [{
+                "sublink": "#",
+                "subtxt": "나눔의생각"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "주요활동분야"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "활동현황"
+            }
+        ]
+    },
+    {
+        "mainlink": "#",
+        "maintxt": "홍보센터",
+        "subdata": [{
+                "sublink": "#",
+                "subtxt": "홍보동영상"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "홍보브로슈어"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "STX건설뉴스"
+            }
+        ]
+    },
+    {
+        "mainlink": "#",
+        "maintxt": "고객지원",
+        "subdata": [{
+                "sublink": "#",
+                "subtxt": "자주묻는질문"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "고객문의"
+            }
+        ]
+    },
+    {
+        "mainlink": "#",
+        "maintxt": "채용정보",
+        "subdata": [{
+                "sublink": "#",
+                "subtxt": "채용안내"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "채용공고"
+            },
+            {
+                "sublink": "#",
+                "subtxt": "채용FAQ"
+            }
+        ]
+    }
+]

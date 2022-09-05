@@ -1,22 +1,22 @@
 <template>
   <section class="news">
     <div class="inner clearfix">
-      <!-- {{ntdata}} -->
+
       <div class="news-box">
         <h3>공지사항</h3>
         <ul class="news-list">
           <li v-for="(item, index) in ntdata" v-bind:key="index">
-            <!-- {{item}} -->
+
             <a v-bind:href="item.url"><span>{{item.title}}</span></a>
           </li>
         </ul>
       </div>
-      <!-- {{nsdata}} -->
+
       <div class="news-box">
         <h3>보도자료</h3>
         <ul class="news-list">
           <li v-for="(item, index) in nsdata" v-bind:key="index">
-            <!-- {{item}} -->
+
             <a v-bind:href="item.url"><span>{{item.title}}</span></a>
           </li>
         </ul>
@@ -27,8 +27,28 @@
 </template>
 
 <script>
+import {
+    computed
+  } from 'vue';
+import { useStore } from 'vuex';
+
   export default {
-    props: ['ntdata', 'nsdata']
+    setup() {
+
+      const store = useStore();
+
+      const ntdata = computed( () => store.state.noticeData);
+      const nsdata = computed( () => store.state.newsData);
+
+      store.dispatch('fetchNews');
+      store.dispatch('fetchNotice');
+
+      return {
+        ntdata,
+        nsdata
+      }
+
+    }
   }
 </script>
 
